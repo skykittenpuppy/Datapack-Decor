@@ -1,0 +1,43 @@
+{
+	"pack": {
+		"pack_format": 64,
+		"min_format": [16],
+		"max_format": [999],
+		"supported_formats": [16,999],
+		"description": [
+			{
+				"text": "Decor",
+				"color": "#08ACED",
+				"bold": true,
+				"italic": false,
+				"underlined": false
+			},
+			{"text": "\n"},
+			{
+				"text": "ꜱᴋʏᴋɪᴛᴛᴇɴᴘᴜᴘᴘʏ",
+				"color": "#9c72ea",
+				"bold": false,
+				"italic": false,
+				"underlined": false
+			},
+			{
+				"text": "@",
+				"color": "#AAAAAA",
+				"bold": false,
+				"italic": false,
+				"underlined": false
+			},
+			{
+				"text": "ʙᴇᴇɢɪʀʟ.ɢᴀʏ",
+				"color": "#0000FF",
+				"bold": false,
+				"italic": false,
+				"underlined": true,
+				"click_event": {
+					"action": "open_url",
+					"url": "https://beegirl.gay/#Projects"
+				}
+			}
+		]
+	}
+}
