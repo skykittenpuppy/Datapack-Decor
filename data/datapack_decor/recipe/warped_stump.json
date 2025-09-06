@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "datapack_decor_stump",
+  "key": {
+    "L": "minecraft:warped_stem"
+  },
+  "pattern": [
+    "L",
+    "L"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:poisonous_potato",
+    "components": {
+      "item_model": "datapack_decor:warped_stump",
+      "item_name": {"translate": "item.datapack_decor.warped_stump"}
+    }
+  }
+}

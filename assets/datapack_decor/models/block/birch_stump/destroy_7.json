@@ -1,0 +1,6 @@
+{
+	"parent": "datapack_decor:block/birch_stump/normal",
+	"textures": {
+		"break": "minecraft:block/destroy_stage_7"
+	}
+}

@@ -1,0 +1,95 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "display_context",
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "datapack_decor:item/dark_oak_stump"
+		},
+		"cases": [
+			{
+				"when": "none",
+				"model": {
+					"type": "minecraft:range_dispatch",
+					"property": "custom_model_data",
+					"fallback": {
+						"type": "minecraft:model",
+						"model": "datapack_decor:block/dark_oak_stump/normal"
+					},
+					"entries": [
+						{
+							"threshold": 0,
+							"model": {
+								"type": "minecraft:model",
+								"model": "datapack_decor:block/dark_oak_stump/destroy_0"
+							}
+						},
+						{
+							"threshold": 1,
+							"model": {
+								"type": "minecraft:model",
+								"model": "datapack_decor:block/dark_oak_stump/destroy_1"
+							}
+						},
+						{
+							"threshold": 2,
+							"model": {
+								"type": "minecraft:model",
+								"model": "datapack_decor:block/dark_oak_stump/destroy_2"
+							}
+						},
+						{
+							"threshold": 3,
+							"model": {
+								"type": "minecraft:model",
+								"model": "datapack_decor:block/dark_oak_stump/destroy_3"
+							}
+						},
+						{
+							"threshold": 4,
+							"model": {
+								"type": "minecraft:model",
+								"model": "datapack_decor:block/dark_oak_stump/destroy_4"
+							}
+						},
+						{
+							"threshold": 5,
+							"model": {
+								"type": "minecraft:model",
+								"model": "datapack_decor:block/dark_oak_stump/destroy_5"
+							}
+						},
+						{
+							"threshold": 6,
+							"model": {
+								"type": "minecraft:model",
+								"model": "datapack_decor:block/dark_oak_stump/destroy_6"
+							}
+						},
+						{
+							"threshold": 7,
+							"model": {
+								"type": "minecraft:model",
+								"model": "datapack_decor:block/dark_oak_stump/destroy_7"
+							}
+						},
+						{
+							"threshold": 8,
+							"model": {
+								"type": "minecraft:model",
+								"model": "datapack_decor:block/dark_oak_stump/destroy_8"
+							}
+						},
+						{
+							"threshold": 9,
+							"model": {
+								"type": "minecraft:model",
+								"model": "datapack_decor:block/dark_oak_stump/destroy_9"
+							}
+						}
+					]
+				}
+			}
+		]
+	}
+}
