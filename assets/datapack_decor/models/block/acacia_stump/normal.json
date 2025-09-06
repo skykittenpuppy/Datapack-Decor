@@ -1,8 +1,0 @@
-{
-	"parent": "datapack_decor:block/template_stump",
-	"textures": {
-		"top": "minecraft:block/acacia_log_top",
-		"particle": "minecraft:block/acacia_log",
-		"side": "minecraft:block/acacia_log"
-	}
-}
