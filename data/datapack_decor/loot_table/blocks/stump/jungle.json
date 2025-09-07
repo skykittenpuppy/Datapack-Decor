@@ -1,0 +1,35 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:poisonous_potato",
+					"functions": [
+						{
+							"function": "set_components",
+							"components": {
+								"consumable": {
+									"has_consume_particles": false,
+									"animation": "bundle",
+									"sound": "intentionally_empty",
+									"consume_seconds": 0.01
+								},
+								"custom_data": {
+									"datapack_decor": "jungle_stump"
+								},
+								"!food": {},
+								"item_model": "datapack_decor:stump/jungle",
+								"item_name": {"translate": "item.datapack_decor.stump.jungle"}
+							}
+						}
+					]
+				}
+			],
+			"rolls": 1.0
+		}
+	],
+	"random_sequence": "datapack_decor:blocks/stump/jungle"
+}

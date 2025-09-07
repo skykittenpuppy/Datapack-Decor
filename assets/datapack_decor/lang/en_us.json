@@ -1,14 +1,14 @@
 {
-	"item.datapack_decor.oak_stump":		"Oak Stump",
-	"item.datapack_decor.spruce_stump":		"Spruce Stump",
-	"item.datapack_decor.birch_stump":		"Birch Stump",
-	"item.datapack_decor.jungle_stump":		"Jungle Stump",
-	"item.datapack_decor.acacia_stump":		"Acacia Stump",
-	"item.datapack_decor.dark_oak_stump":	"Dark Oak Stump",
-	"item.datapack_decor.mangrove_stump":	"Mangrove Stump",
-	"item.datapack_decor.cherry_stump":		"Cherry Stump",
-	"item.datapack_decor.pale_oak_stump":	"Pale Oak Stump",
-	"item.datapack_decor.bamboo_stump":		"Bamboo Stool",
-	"item.datapack_decor.crimson_stump":	"Crimson Stump",
-	"item.datapack_decor.warped_stump":		"Warped Stump"
+	"item.datapack_decor.stump.oak":		"Oak Stump",
+	"item.datapack_decor.stump.spruce":		"Spruce Stump",
+	"item.datapack_decor.stump.birch":		"Birch Stump",
+	"item.datapack_decor.stump.jungle":		"Jungle Stump",
+	"item.datapack_decor.stump.acacia":		"Acacia Stump",
+	"item.datapack_decor.stump.dark_oak":	"Dark Oak Stump",
+	"item.datapack_decor.stump.mangrove":	"Mangrove Stump",
+	"item.datapack_decor.stump.cherry":		"Cherry Stump",
+	"item.datapack_decor.stump.pale_oak":	"Pale Oak Stump",
+	"item.datapack_decor.stump.bamboo":		"Bamboo Stool",
+	"item.datapack_decor.stump.crimson":	"Crimson Stump",
+	"item.datapack_decor.stump.warped":		"Warped Stump"
 }

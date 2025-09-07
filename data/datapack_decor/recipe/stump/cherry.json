@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "datapack_decor_stump",
+  "key": {
+    "L": "minecraft:cherry_log"
+  },
+  "pattern": [
+    "L",
+    "L"
+  ],
+	"result": {
+		"count": 1,
+		"id": "minecraft:poisonous_potato",
+		"components": {
+			"consumable": {
+				"has_consume_particles": false,
+				"animation": "bundle",
+				"sound": "intentionally_empty",
+				"consume_seconds": 0.01
+			},
+			"custom_data": {
+				"datapack_decor": "cherry_stump"
+			},
+			"!food": {},
+			"item_model": "datapack_decor:stump/cherry",
+			"item_name": {"translate": "item.datapack_decor.stump.cherry"}
+		}
+	}
+}

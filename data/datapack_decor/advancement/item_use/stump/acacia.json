@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"use_item": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"predicates": {
+						"minecraft:custom_data": {
+							"datapack_decor": "acacia_stump"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "datapack_decor:stump/used/acacia"
+	}
+}

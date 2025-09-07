@@ -1,7 +1,8 @@
-execute if score @s datapack_decor.break_reset_delay matches ..0 run scoreboard players set @s datapack_decor.break -1
-execute if score @s datapack_decor.break_reset_delay matches 1.. run scoreboard players remove @s datapack_decor.break_reset_delay 1
-$execute if score @s datapack_decor.break matches 10.. at @s run particle block{block_state:$(particle)} ~ ~0.375 ~ 0.375 0.375 0.375 0 27 normal
-execute if score @s datapack_decor.break matches 10.. at @s run kill @e[tag=datapack_decor, distance=..0.1]
+execute if data entity @n[type=interaction, tag=datapack_decor] attack run function datapack_decor:stump/attacked with entity @s data.datapack_decor
+execute as @n[type=interaction, tag=datapack_decor] if data entity @s interaction run function datapack_decor:stump/interacted
 
-execute store result storage datapack_decor:temp break float 1 run scoreboard players get @s datapack_decor.break
-data modify entity @s item.components."minecraft:custom_model_data".floats[0] set from storage datapack_decor:temp break
+execute if score @s datapack_decor.break_reset_delay matches ..0 run scoreboard players set @s datapack_decor.break -1
+execute unless score @s datapack_decor.break_reset_delay matches ..0 run scoreboard players remove @s datapack_decor.break_reset_delay 1
+
+execute store result storage datapack_decor:const Temp float 1 run scoreboard players get @s datapack_decor.break
+data modify entity @s item.components."minecraft:custom_model_data".floats[0] set from storage datapack_decor:const Temp

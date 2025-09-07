@@ -1,0 +1,16 @@
+advancement revoke @s only datapack_decor:item_use/stump/oak
+
+data modify storage datapack_decor:const Temp set value {\
+	"xPos": 0,\
+	"yPos": 0,\
+	"zPos": 0,\
+	"xRot": 0,\
+	"yRot": 0,\
+	"type": "oak",\
+	"particle": "minecraft:oak_log",\
+	"breakSound": "block.wood.break",\
+	"placeSound": "block.wood.place",\
+	"hitSound": "block.wood.hit",\
+}
+function datapack_decor:set_position_raycast
+function datapack_decor:stump/create with storage datapack_decor:const Temp
