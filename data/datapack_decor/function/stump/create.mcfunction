@@ -1,7 +1,6 @@
-$execute positioned $(xPos) $(yPos) $(zPos) unless block ~ ~ ~ #replaceable run return fail
-$execute positioned $(xPos) $(yPos) $(zPos) if entity @e[tag=datapack_decor, distance=..0.1] run return fail
-
 #$tellraw @a "$(xPos) $(yPos) $(zPos)"
+$execute positioned $(xPos) $(yPos) $(zPos) if entity @e[tag=datapack_decor, distance=..0.1] run return fail
+$execute positioned $(xPos) $(yPos) $(zPos) run setblock ~ ~ ~ air replace
 
 $summon item_display $(xPos) $(yPos) $(zPos) {\
 	item: {\
@@ -49,3 +48,4 @@ $execute positioned $(xPos) $(yPos) $(zPos) run attribute @n[type=shulker, tag=d
 $execute positioned $(xPos) $(yPos) $(zPos) run ride @n[type=interaction, tag=datapack_decor] mount @n[type=item_display, tag=datapack_decor]
 $execute positioned $(xPos) $(yPos) $(zPos) run ride @n[type=shulker, tag=datapack_decor] mount @n[type=item_display, tag=datapack_decor]
 $execute positioned $(xPos) $(yPos) $(zPos) run playsound $(placeSound) block @a
+return 1

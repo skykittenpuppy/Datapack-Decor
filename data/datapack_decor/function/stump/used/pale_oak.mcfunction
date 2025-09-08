@@ -12,5 +12,4 @@ data modify storage datapack_decor:const Temp set value {\
 	"placeSound": "block.wood.place",\
 	"hitSound": "block.wood.hit",\
 }
-function datapack_decor:set_position_raycast
-function datapack_decor:stump/create with storage datapack_decor:const Temp
+function datapack_decor:util/place_raycast {createFunc: "datapack_decor:stump/create", lootTable: "datapack_decor:blocks/stump/pale_oak"}
