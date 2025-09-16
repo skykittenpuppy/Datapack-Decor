@@ -3,6 +3,8 @@ scoreboard objectives add datapack_decor.range_limit dummy "Range Limit"
 scoreboard objectives add datapack_decor.success dummy "Success"
 scoreboard objectives add datapack_decor.break dummy "Break"
 
+return 0
+
 summon marker ~ ~ ~ {Tags:[datapack_decor_init]}
 execute as @n[type=marker, tag=datapack_decor_init] run tp @s -57.5 68.5 -41.5 0 90
 execute as @n[type=marker, tag=datapack_decor_init] run function datapack_decor:stump/used/oak

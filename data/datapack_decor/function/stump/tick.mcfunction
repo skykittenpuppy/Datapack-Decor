@@ -1,5 +1,5 @@
-execute if data entity @n[type=interaction, tag=datapack_decor] attack run function datapack_decor:stump/attacked with entity @s data.datapack_decor
-execute as @n[type=interaction, tag=datapack_decor] if data entity @s interaction run function datapack_decor:stump/interacted
+execute if data entity @n[type=interaction, tag=datapack_decor_stump] attack run function datapack_decor:stump/attacked with entity @s data.datapack_decor
+execute as @n[type=interaction, tag=datapack_decor_stump] if data entity @s interaction run function datapack_decor:stump/interacted
 
 execute if score @s datapack_decor.break_reset_delay matches ..0 run scoreboard players set @s datapack_decor.break -1
 execute unless score @s datapack_decor.break_reset_delay matches ..0 run scoreboard players remove @s datapack_decor.break_reset_delay 1
