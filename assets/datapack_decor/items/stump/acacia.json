@@ -4,7 +4,7 @@
 		"property": "display_context",
 		"fallback": {
 			"type": "minecraft:model",
-			"model": "datapack_decor:item/acacia_stump"
+			"model": "datapack_decor:item/stump/acacia"
 		},
 		"cases": [
 			{
@@ -14,7 +14,7 @@
 					"models": [
 						{
 							"type": "minecraft:model",
-							"model": "datapack_decor:block/acacia_stump"
+							"model": "datapack_decor:block/stump/acacia"
 						},
 						{
 							"type": "minecraft:range_dispatch",
@@ -27,70 +27,70 @@
 									"threshold": 0,
 									"model": {
 										"type": "minecraft:model",
-										"model": "datapack_decor:block/stump/destroy_0"
+										"model": "datapack_decor:block/stump/destroy/0"
 									}
 								},
 								{
 									"threshold": 1,
 									"model": {
 										"type": "minecraft:model",
-										"model": "datapack_decor:block/stump/destroy_1"
+										"model": "datapack_decor:block/stump/destroy/1"
 									}
 								},
 								{
 									"threshold": 2,
 									"model": {
 										"type": "minecraft:model",
-										"model": "datapack_decor:block/stump/destroy_2"
+										"model": "datapack_decor:block/stump/destroy/2"
 									}
 								},
 								{
 									"threshold": 3,
 									"model": {
 										"type": "minecraft:model",
-										"model": "datapack_decor:block/stump/destroy_3"
+										"model": "datapack_decor:block/stump/destroy/3"
 									}
 								},
 								{
 									"threshold": 4,
 									"model": {
 										"type": "minecraft:model",
-										"model": "datapack_decor:block/stump/destroy_4"
+										"model": "datapack_decor:block/stump/destroy/4"
 									}
 								},
 								{
 									"threshold": 5,
 									"model": {
 										"type": "minecraft:model",
-										"model": "datapack_decor:block/stump/destroy_5"
+										"model": "datapack_decor:block/stump/destroy/5"
 									}
 								},
 								{
 									"threshold": 6,
 									"model": {
 										"type": "minecraft:model",
-										"model": "datapack_decor:block/stump/destroy_6"
+										"model": "datapack_decor:block/stump/destroy/6"
 									}
 								},
 								{
 									"threshold": 7,
 									"model": {
 										"type": "minecraft:model",
-										"model": "datapack_decor:block/stump/destroy_7"
+										"model": "datapack_decor:block/stump/destroy/7"
 									}
 								},
 								{
 									"threshold": 8,
 									"model": {
 										"type": "minecraft:model",
-										"model": "datapack_decor:block/stump/destroy_8"
+										"model": "datapack_decor:block/stump/destroy/8"
 									}
 								},
 								{
 									"threshold": 9,
 									"model": {
 										"type": "minecraft:model",
-										"model": "datapack_decor:block/stump/destroy_9"
+										"model": "datapack_decor:block/stump/destroy/9"
 									}
 								}
 							]

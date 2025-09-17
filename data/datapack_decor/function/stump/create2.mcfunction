@@ -1,5 +1,5 @@
-execute if entity @e[tag=!datapack_decor_spawn, tag=datapack_decor_stump, distance=..0.1] run kill @s
-execute if entity @e[tag=!datapack_decor_spawn, tag=datapack_decor_stump, distance=..0.1] run return fail
+execute if entity @e[tag=!datapack_decor_spawn, tag=datapack_decor_stump, distance=..0.4] run kill @s
+execute if entity @e[tag=!datapack_decor_spawn, tag=datapack_decor_stump, distance=..0.4] run return fail
 execute unless block ~ ~ ~ #replaceable run kill @s
 execute unless block ~ ~ ~ #replaceable run return fail
 setblock ~ ~ ~ air destroy
@@ -8,7 +8,7 @@ $summon item_display ~ ~ ~ {\
 	item: {\
 		id: "poisonous_potato",\
 		components: {\
-			item_model: "datapack_decor:stump/$(type)",\
+			item_model: "$(blockModel)",\
 			custom_model_data: {floats:[-1]},\
 		}\
 	},\
@@ -20,9 +20,12 @@ $summon item_display ~ ~ ~ {\
 	],\
 	data: {\
 		"datapack_decor": {\
+			"blockModel": "$(blockModel)",\
 			"particle": "$(particle)",\
 			"breakSound": "$(breakSound)",\
+			"placeSound": "$(placeSound)",\
 			"hitSound": "$(hitSound)",\
+			"lootTable": "$(lootTable)",\
 		},\
 	},\
 	Tags: [datapack_decor_stump],\
@@ -33,7 +36,7 @@ summon interaction ~ ~ ~ {\
 	Tags: [datapack_decor_stump],\
 }
 $summon shulker ~ ~ ~ {\
-	DeathLootTable: "datapack_decor:blocks/stump/$(type)",\
+	DeathLootTable: "$(lootTable)",\
 	NoAI: true,\
 	Silent: true,\
 	Tags: [datapack_decor_stump],\

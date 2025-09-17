@@ -10,5 +10,8 @@
 	"item.datapack_decor.stump.pale_oak":	"Pale Oak Stump",
 	"item.datapack_decor.stump.bamboo":		"Bamboo Stool",
 	"item.datapack_decor.stump.crimson":	"Crimson Stump",
-	"item.datapack_decor.stump.warped":		"Warped Stump"
+	"item.datapack_decor.stump.warped":		"Warped Stump",
+
+	"item.datapack_decor.pedestal.stone":		"Stone Pedestal",
+	"item.datapack_decor.pedestal.deepslate":	"Deepslate Pedestal"
 }

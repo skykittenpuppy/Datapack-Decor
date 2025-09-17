@@ -1,0 +1,103 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "display_context",
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "datapack_decor:item/pedestal/stone"
+		},
+		"cases": [
+			{
+				"when": "none",
+				"model": {
+					"type": "minecraft:composite",
+					"models": [
+						{
+							"type": "minecraft:model",
+							"model": "datapack_decor:block/pedestal/stone"
+						},
+						{
+							"type": "minecraft:range_dispatch",
+							"property": "custom_model_data",
+							"fallback": {
+								"type": "minecraft:empty"
+							},
+							"entries": [
+								{
+									"threshold": 0,
+									"model": {
+										"type": "minecraft:model",
+										"model": "datapack_decor:block/pedestal/destroy/0"
+									}
+								},
+								{
+									"threshold": 1,
+									"model": {
+										"type": "minecraft:model",
+										"model": "datapack_decor:block/pedestal/destroy/1"
+									}
+								},
+								{
+									"threshold": 2,
+									"model": {
+										"type": "minecraft:model",
+										"model": "datapack_decor:block/pedestal/destroy/2"
+									}
+								},
+								{
+									"threshold": 3,
+									"model": {
+										"type": "minecraft:model",
+										"model": "datapack_decor:block/pedestal/destroy/3"
+									}
+								},
+								{
+									"threshold": 4,
+									"model": {
+										"type": "minecraft:model",
+										"model": "datapack_decor:block/pedestal/destroy/4"
+									}
+								},
+								{
+									"threshold": 5,
+									"model": {
+										"type": "minecraft:model",
+										"model": "datapack_decor:block/pedestal/destroy/5"
+									}
+								},
+								{
+									"threshold": 6,
+									"model": {
+										"type": "minecraft:model",
+										"model": "datapack_decor:block/pedestal/destroy/6"
+									}
+								},
+								{
+									"threshold": 7,
+									"model": {
+										"type": "minecraft:model",
+										"model": "datapack_decor:block/pedestal/destroy/7"
+									}
+								},
+								{
+									"threshold": 8,
+									"model": {
+										"type": "minecraft:model",
+										"model": "datapack_decor:block/pedestal/destroy/8"
+									}
+								},
+								{
+									"threshold": 9,
+									"model": {
+										"type": "minecraft:model",
+										"model": "datapack_decor:block/pedestal/destroy/9"
+									}
+								}
+							]
+						}
+					]
+				}
+			}
+		]
+	}
+}

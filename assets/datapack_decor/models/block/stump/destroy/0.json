@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/block",
+	"textures": {
+		"break": "block/destroy_stage_0"
+	},
+	"elements": [
+		{
+			"name": "Break",
+			"from": [1.998, -0.002, 1.998],
+			"to": [14.002, 12.002, 14.002],
+			"faces": {
+				"north": {"uv": [2, 4, 14, 16], "texture": "#break"},
+				"east": {"uv": [2, 4, 14, 16], "texture": "#break"},
+				"south": {"uv": [2, 4, 14, 16], "texture": "#break"},
+				"west": {"uv": [2, 4, 14, 16], "texture": "#break"},
+				"up": {"uv": [2, 2, 14, 14], "texture": "#break"},
+				"down": {"uv": [2, 2, 14, 14], "texture": "#break"}
+			}
+		}
+	]
+}

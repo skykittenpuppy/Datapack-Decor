@@ -1,0 +1,8 @@
+data remove entity @n[type=interaction, tag=datapack_decor_pedestal] attack
+scoreboard players add @s datapack_decor.break 1
+scoreboard players add @s datapack_decor.break_reset_delay 20
+$execute unless score @s datapack_decor.break matches 10.. run particle $(particle) ~ ~0.375 ~ 0.25 0.25 0.25 0 16 normal
+$execute unless score @s datapack_decor.break matches 10.. run playsound $(hitSound) block @a
+$execute if score @s datapack_decor.break matches 10.. run particle $(particle) ~ ~0.375 ~ 0.25 0.25 0.25 0 64 normal
+$execute if score @s datapack_decor.break matches 10.. run playsound $(breakSound) block @a
+execute if score @s datapack_decor.break matches 10.. run kill @e[tag=datapack_decor_pedestal, distance=..0.1]

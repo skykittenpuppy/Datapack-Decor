@@ -1,0 +1,6 @@
+{
+	"parent": "datapack_decor:block/bamboo_stump/destroy/0",
+	"textures": {
+		"break": "minecraft:block/destroy_stage_6"
+	}
+}

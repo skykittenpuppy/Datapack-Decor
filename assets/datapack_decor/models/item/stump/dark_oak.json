@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "datapack_decor:item/stump/dark_oak"
+  }
+}
