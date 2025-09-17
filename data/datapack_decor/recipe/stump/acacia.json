@@ -1,28 +1,35 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "datapack_decor_stump",
-  "key": {
-    "L": "minecraft:acacia_log"
-  },
-  "pattern": [
-    "L",
-    "L"
-  ],
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"group": "datapack_decor_stump",
+	"key": {
+		"L": "minecraft:acacia_log"
+	},
+	"pattern": [
+		"L",
+		"L"
+	],
 	"result": {
 		"count": 1,
-		"id": "minecraft:poisonous_potato",
+		"id": "minecraft:tadpole_spawn_egg",
 		"components": {
-			"consumable": {
-				"has_consume_particles": false,
-				"animation": "bundle",
-				"sound": "intentionally_empty",
-				"consume_seconds": 0.01
+			"entity_data": {
+				"id": "minecraft:tadpole",
+				"NoAI": true,
+				"Silent": true,
+				"Invulnerable": true,
+				"DeathLootTable": "datapack_decor:blocks/stump/acacia",
+				"active_effects": [
+					{
+						"id": "minecraft:invisibility",
+						"show_particles": false,
+						"duration": -1,
+						"amplifier": 0
+					}
+				],
+				"Tags": ["datapack_decor_spawn", "datapack_decor_stump"],
+				"data": {"datapack_decor_type": "acacia"}
 			},
-			"custom_data": {
-				"datapack_decor": "acacia_stump"
-			},
-			"!food": {},
 			"item_model": "datapack_decor:stump/acacia",
 			"item_name": {"translate": "item.datapack_decor.stump.acacia"}
 		}

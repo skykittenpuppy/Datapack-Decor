@@ -24,7 +24,7 @@
 											"amplifier": 0
 										}
 									],
-									"Tags": ["datapack_decor_stump"],
+									"Tags": ["datapack_decor_spawn", "datapack_decor_stump"],
 									"data": {"datapack_decor_type": "oak"}
 								},
 								"item_model": "datapack_decor:stump/oak",

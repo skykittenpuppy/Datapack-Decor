@@ -1,26 +1,32 @@
 {
-	"type": "minecraft:block",
+	"type": "minecraft:command",
 	"pools": [
 		{
-			"bonus_rolls": 0.0,
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:poisonous_potato",
+					"name": "minecraft:tadpole_spawn_egg",
 					"functions": [
 						{
 							"function": "set_components",
 							"components": {
-								"consumable": {
-									"has_consume_particles": false,
-									"animation": "bundle",
-									"sound": "intentionally_empty",
-									"consume_seconds": 0.01
+								"entity_data": {
+									"id": "minecraft:tadpole",
+									"NoAI": true,
+									"Silent": true,
+									"Invulnerable": true,
+									"DeathLootTable": "datapack_decor:blocks/stump/dark_oak",
+									"active_effects": [
+										{
+											"id": "minecraft:invisibility",
+											"show_particles": false,
+											"duration": -1,
+											"amplifier": 0
+										}
+									],
+									"Tags": ["datapack_decor_spawn", "datapack_decor_stump"],
+									"data": {"datapack_decor_type": "dark_oak"}
 								},
-								"custom_data": {
-									"datapack_decor": "dark_oak_stump"
-								},
-								"!food": {},
 								"item_model": "datapack_decor:stump/dark_oak",
 								"item_name": {"translate": "item.datapack_decor.stump.dark_oak"}
 							}
