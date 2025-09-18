@@ -27,70 +27,70 @@
 									"threshold": 0,
 									"model": {
 										"type": "minecraft:model",
-										"model": "datapack_decor:block//bamboo_stump/destroy/0"
+										"model": "datapack_decor:block/bamboo_stump/destroy/0"
 									}
 								},
 								{
 									"threshold": 1,
 									"model": {
 										"type": "minecraft:model",
-										"model": "datapack_decor:block//bamboo_stump/destroy/1"
+										"model": "datapack_decor:block/bamboo_stump/destroy/1"
 									}
 								},
 								{
 									"threshold": 2,
 									"model": {
 										"type": "minecraft:model",
-										"model": "datapack_decor:block//bamboo_stump/destroy/2"
+										"model": "datapack_decor:block/bamboo_stump/destroy/2"
 									}
 								},
 								{
 									"threshold": 3,
 									"model": {
 										"type": "minecraft:model",
-										"model": "datapack_decor:block//bamboo_stump/destroy/3"
+										"model": "datapack_decor:block/bamboo_stump/destroy/3"
 									}
 								},
 								{
 									"threshold": 4,
 									"model": {
 										"type": "minecraft:model",
-										"model": "datapack_decor:block//bamboo_stump/destroy/4"
+										"model": "datapack_decor:block/bamboo_stump/destroy/4"
 									}
 								},
 								{
 									"threshold": 5,
 									"model": {
 										"type": "minecraft:model",
-										"model": "datapack_decor:block//bamboo_stump/destroy/5"
+										"model": "datapack_decor:block/bamboo_stump/destroy/5"
 									}
 								},
 								{
 									"threshold": 6,
 									"model": {
 										"type": "minecraft:model",
-										"model": "datapack_decor:block//bamboo_stump/destroy/6"
+										"model": "datapack_decor:block/bamboo_stump/destroy/6"
 									}
 								},
 								{
 									"threshold": 7,
 									"model": {
 										"type": "minecraft:model",
-										"model": "datapack_decor:block//bamboo_stump/destroy/7"
+										"model": "datapack_decor:block/bamboo_stump/destroy/7"
 									}
 								},
 								{
 									"threshold": 8,
 									"model": {
 										"type": "minecraft:model",
-										"model": "datapack_decor:block//bamboo_stump/destroy/8"
+										"model": "datapack_decor:block/bamboo_stump/destroy/8"
 									}
 								},
 								{
 									"threshold": 9,
 									"model": {
 										"type": "minecraft:model",
-										"model": "datapack_decor:block//bamboo_stump/destroy/9"
+										"model": "datapack_decor:block/bamboo_stump/destroy/9"
 									}
 								}
 							]

@@ -8,17 +8,17 @@
 	},
 	"elements": [
 		{
-			"name": "Flesh",
-			"from": [2, 0, 2],
-			"to": [14, 4, 14],
-			"rotation": {"angle": 0, "axis": "y", "origin": [2, 0, 2]},
+			"name": "Main",
+			"from": [3, 0, 5],
+			"to": [13, 6, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
 			"faces": {
-				"north": {"uv": [2, 12, 14, 16], "texture": "#side"},
-				"east": {"uv": [2, 12, 14, 16], "texture": "#side"},
-				"south": {"uv": [2, 12, 14, 16], "texture": "#side"},
-				"west": {"uv": [2, 12, 14, 16], "texture": "#side"},
-				"up": {"uv": [2, 2, 14, 14], "texture": "#top"},
-				"down": {"uv": [2, 2, 14, 14], "texture": "#top"}
+				"north": {"uv": [3, 10, 13, 16], "texture": "#side"},
+				"east": {"uv": [5, 10, 11, 16], "texture": "#side"},
+				"south": {"uv": [3, 10, 13, 16], "texture": "#side"},
+				"west": {"uv": [5, 10, 11, 16], "texture": "#side"},
+				"up": {"uv": [2, 5, 14, 11], "texture": "#top"},
+				"down": {"uv": [2, 5, 14, 11], "texture": "#top"}
 			}
 		}
 	]

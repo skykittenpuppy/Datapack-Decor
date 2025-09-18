@@ -106,6 +106,7 @@ data modify storage datapack_decor:const Pedestals set value {\
 		"breakSound": "block.stone.break",\
 		"placeSound": "block.stone.place",\
 		"hitSound": "block.stone.hit",\
+		"equipSound": "item.armor.equip_generic",\
 		"lootTable": "datapack_decor:blocks/pedestal/stone",\
 	},\
 	deepslate: {\
@@ -114,6 +115,7 @@ data modify storage datapack_decor:const Pedestals set value {\
 		"breakSound": "block.deepslate.break",\
 		"placeSound": "block.deepslate.place",\
 		"hitSound": "block.deepslate.hit",\
+		"equipSound": "item.armor.equip_generic",\
 		"lootTable": "datapack_decor:blocks/pedestal/deepslate",\
 	},\
 }
