@@ -15,7 +15,7 @@
 									"NoAI": true,
 									"Silent": true,
 									"Invulnerable": true,
-									"DeathLootTable": "datapack_decor:blocks/pedestal/deepslate",
+									"DeathLootTable": "datapack_decor:blocks/pedestal/red_sandstone",
 									"active_effects": [
 										{
 											"id": "minecraft:invisibility",
@@ -25,10 +25,10 @@
 										}
 									],
 									"Tags": ["datapack_decor_spawn", "datapack_decor_pedestal"],
-									"data": {"datapack_decor_type": "deepslate"}
+									"data": {"datapack_decor_type": "red_sandstone"}
 								},
-								"item_model": "datapack_decor:pedestal/deepslate",
-								"item_name": {"translate": "item.datapack_decor.pedestal.deepslate"}
+								"item_model": "datapack_decor:pedestal/red_sandstone",
+								"item_name": {"translate": "item.datapack_decor.pedestal.red_sandstone"}
 							}
 						}
 					]
@@ -37,5 +37,5 @@
 			"rolls": 1.0
 		}
 	],
-	"random_sequence": "datapack_decor:blocks/pedestal/deepslate"
+	"random_sequence": "datapack_decor:blocks/pedestal/red_sandstone"
 }

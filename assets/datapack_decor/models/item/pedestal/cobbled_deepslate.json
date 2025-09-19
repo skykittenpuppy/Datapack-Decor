@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "datapack_decor:item/pedestal/deepslate"
+    "layer0": "datapack_decor:item/pedestal/cobbled_deepslate"
   }
 }

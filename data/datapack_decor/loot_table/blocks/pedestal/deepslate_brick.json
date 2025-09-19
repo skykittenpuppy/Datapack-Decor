@@ -1,0 +1,41 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tadpole_spawn_egg",
+					"functions": [
+						{
+							"function": "set_components",
+							"components": {
+								"entity_data": {
+									"id": "minecraft:tadpole",
+									"NoAI": true,
+									"Silent": true,
+									"Invulnerable": true,
+									"DeathLootTable": "datapack_decor:blocks/pedestal/deepslate_brick",
+									"active_effects": [
+										{
+											"id": "minecraft:invisibility",
+											"show_particles": false,
+											"duration": -1,
+											"amplifier": 0
+										}
+									],
+									"Tags": ["datapack_decor_spawn", "datapack_decor_pedestal"],
+									"data": {"datapack_decor_type": "deepslate_brick"}
+								},
+								"item_model": "datapack_decor:pedestal/deepslate_brick",
+								"item_name": {"translate": "item.datapack_decor.pedestal.deepslate_brick"}
+							}
+						}
+					]
+				}
+			],
+			"rolls": 1.0
+		}
+	],
+	"random_sequence": "datapack_decor:blocks/pedestal/deepslate_brick"
+}
