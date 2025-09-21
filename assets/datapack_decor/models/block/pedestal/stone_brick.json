@@ -1,0 +1,7 @@
+{
+	"parent": "datapack_decor:block/pedestal/template",
+	"textures": {
+		"top": "minecraft:block/stone_bricks",
+		"side": "minecraft:block/stone_bricks"
+	}
+}

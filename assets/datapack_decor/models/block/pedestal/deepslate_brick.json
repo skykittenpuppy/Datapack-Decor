@@ -1,0 +1,7 @@
+{
+	"parent": "datapack_decor:block/pedestal/template",
+	"textures": {
+		"top": "minecraft:block/deepslate_bricks",
+		"side": "minecraft:block/deepslate_bricks"
+	}
+}

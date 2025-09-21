@@ -344,8 +344,8 @@ data modify storage datapack_decor:const Pedestals set value {\
 		"lootTable": "datapack_decor:blocks/pedestal/quartz",\
 	},\
 }
-#summon tadpole -51.5 67 -36.5 {NoAI: true, Silent:true, data: {"datapack_decor_type": "silly"}, Tags:[datapack_decor_spawn, datapack_decor_stump]}
 
+#Stumps
 summon tadpole -57.5 68 -41.5 {NoAI: true, Silent:true, data: {"datapack_decor_type": "oak"}, Tags:[datapack_decor_spawn, datapack_decor_stump]}
 summon tadpole -56.5 68 -41.5 {NoAI: true, Silent:true, data: {"datapack_decor_type": "spruce"}, Tags:[datapack_decor_spawn, datapack_decor_stump]}
 summon tadpole -55.5 68 -41.5 {NoAI: true, Silent:true, data: {"datapack_decor_type": "birch"}, Tags:[datapack_decor_spawn, datapack_decor_stump]}
@@ -359,6 +359,7 @@ summon tadpole -48.5 68 -41.5 {NoAI: true, Silent:true, data: {"datapack_decor_t
 summon tadpole -47.5 68 -41.5 {NoAI: true, Silent:true, data: {"datapack_decor_type": "crimson"}, Tags:[datapack_decor_spawn, datapack_decor_stump]}
 summon tadpole -46.5 68 -41.5 {NoAI: true, Silent:true, data: {"datapack_decor_type": "warped"}, Tags:[datapack_decor_spawn, datapack_decor_stump]}
 
+#Pedestals
 summon tadpole -57.5 67 -39.5 {NoAI: true, Silent:true, data: {"datapack_decor_type": "stone"}, Tags:[datapack_decor_spawn, datapack_decor_pedestal]}
 summon tadpole -56.5 67 -39.5 {NoAI: true, Silent:true, data: {"datapack_decor_type": "cobblestone"}, Tags:[datapack_decor_spawn, datapack_decor_pedestal]}
 summon tadpole -55.5 67 -39.5 {NoAI: true, Silent:true, data: {"datapack_decor_type": "mossy_cobblestone"}, Tags:[datapack_decor_spawn, datapack_decor_pedestal]}

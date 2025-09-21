@@ -4,7 +4,7 @@
 		"property": "display_context",
 		"fallback": {
 			"type": "minecraft:model",
-			"model": "datapack_decor:item/pedestal/stone"
+			"model": "datapack_decor:item/pedestal/tuff_brick"
 		},
 		"cases": [
 			{
@@ -14,7 +14,7 @@
 					"models": [
 						{
 							"type": "minecraft:model",
-							"model": "datapack_decor:block/pedestal/stone"
+							"model": "datapack_decor:block/pedestal/tuff_brick"
 						},
 						{
 							"type": "minecraft:range_dispatch",
