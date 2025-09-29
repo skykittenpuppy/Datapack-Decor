@@ -1,7 +1,6 @@
 {
 	"parent": "datapack_decor:block/pedestal/template",
 	"textures": {
-		"top": "minecraft:block/tuff",
-		"side": "minecraft:block/tuff"
+		"all": "datapack_decor:block/pedestal/tuff"
 	}
 }

@@ -1,7 +1,6 @@
 {
 	"parent": "datapack_decor:block/pedestal/template",
 	"textures": {
-		"top": "minecraft:block/cobbled_deepslate",
-		"side": "minecraft:block/cobbled_deepslate"
+		"all": "datapack_decor:block/pedestal/cobbled_deepslate"
 	}
 }

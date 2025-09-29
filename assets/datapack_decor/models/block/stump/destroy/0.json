@@ -3,7 +3,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/block",
 	"textures": {
-		"break": "block/destroy_stage_0"
+		"break": "datapack_decor:block/destroy_stage_0"
 	},
 	"elements": [
 		{

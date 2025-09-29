@@ -1,6 +1,6 @@
 {
 	"parent": "datapack_decor:block/pedestal/destroy/0",
 	"textures": {
-		"break": "minecraft:block/destroy_stage_3"
+		"break": "datapack_decor:block/destroy_stage_3"
 	}
 }

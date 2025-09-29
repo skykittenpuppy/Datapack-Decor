@@ -1,0 +1,37 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"group": "datapack_decor_pedestal",
+	"key": {
+		"L": "minecraft:polished_blackstone_bricks"
+	},
+	"pattern": [
+		"L",
+		"L"
+	],
+	"result": {
+		"count": 1,
+		"id": "minecraft:tadpole_spawn_egg",
+		"components": {
+			"entity_data": {
+				"id": "minecraft:tadpole",
+				"NoAI": true,
+				"Silent": true,
+				"Invulnerable": true,
+				"DeathLootTable": "datapack_decor:blocks/pedestal/polished_blackstone_brick",
+				"active_effects": [
+					{
+						"id": "minecraft:invisibility",
+						"show_particles": false,
+						"duration": -1,
+						"amplifier": 0
+					}
+				],
+				"Tags": ["datapack_decor_spawn", "datapack_decor_pedestal"],
+				"data": {"datapack_decor_type": "polished_blackstone_brick"}
+			},
+			"item_model": "datapack_decor:pedestal/polished_blackstone_brick",
+			"item_name": {"translate": "item.datapack_decor.pedestal.polished_blackstone_brick"}
+		}
+	}
+}

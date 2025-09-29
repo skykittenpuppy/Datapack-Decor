@@ -1,7 +1,6 @@
 {
 	"parent": "datapack_decor:block/pedestal/template",
 	"textures": {
-		"top": "minecraft:block/andesite",
-		"side": "minecraft:block/andesite"
+		"all": "datapack_decor:block/pedestal/andesite"
 	}
 }

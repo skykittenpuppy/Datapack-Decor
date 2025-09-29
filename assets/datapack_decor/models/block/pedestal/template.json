@@ -2,9 +2,11 @@
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/block",
+	"texture_size": [32, 32],
 	"textures": {
-		"top": "block/deepslate_top",
-		"side": "block/deepslate"
+		"1": "datapack_decor:block/pedestal/slot_overlay",
+		"all": "datapack_decor:block/pedestal/template",
+		"particle": "datapack_decor:block/pedestal/slot_overlay"
 	},
 	"elements": [
 		{
@@ -13,12 +15,21 @@
 			"to": [13, 6, 11],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
 			"faces": {
-				"north": {"uv": [3, 10, 13, 16], "texture": "#side"},
-				"east": {"uv": [5, 10, 11, 16], "texture": "#side"},
-				"south": {"uv": [3, 10, 13, 16], "texture": "#side"},
-				"west": {"uv": [5, 10, 11, 16], "texture": "#side"},
-				"up": {"uv": [2, 5, 14, 11], "texture": "#top"},
-				"down": {"uv": [2, 5, 14, 11], "texture": "#top"}
+				"north": {"uv": [3, 3, 8, 6], "texture": "#all"},
+				"east": {"uv": [0, 3, 3, 6], "texture": "#all"},
+				"south": {"uv": [11, 3, 16, 6], "texture": "#all"},
+				"west": {"uv": [8, 3, 11, 6], "texture": "#all"},
+				"up": {"uv": [8, 3, 3, 0], "texture": "#all"},
+				"down": {"uv": [13, 0, 8, 3], "texture": "#all"}
+			}
+		},
+		{
+			"name": "Slot",
+			"from": [2.999, 4.999, 4.999],
+			"to": [13.001, 6.001, 11.001],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"up": {"uv": [0, 0, 10, 5], "texture": "#1"}
 			}
 		}
 	]

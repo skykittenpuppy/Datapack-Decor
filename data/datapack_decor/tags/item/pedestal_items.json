@@ -1,9 +1,10 @@
 {
 	"values": [
 		"#minecraft:swords",
-		"#minecraft:shovels",
 		"#minecraft:arrows",
 		"minecraft:trident",
+		"minecraft:blaze_rod",
+		"minecraft:breeze_rod",
 		"minecraft:bone"
 	]
 }

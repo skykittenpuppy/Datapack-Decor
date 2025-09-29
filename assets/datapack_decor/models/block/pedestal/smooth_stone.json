@@ -1,7 +1,6 @@
 {
 	"parent": "datapack_decor:block/pedestal/template",
 	"textures": {
-		"top": "minecraft:block/smooth_stone",
-		"side": "minecraft:block/smooth_stone"
+		"all": "datapack_decor:block/pedestal/smooth_stone"
 	}
 }

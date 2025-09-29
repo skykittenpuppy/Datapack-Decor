@@ -1,7 +1,6 @@
 {
 	"parent": "datapack_decor:block/pedestal/template",
 	"textures": {
-		"top": "minecraft:block/mossy_cobblestone",
-		"side": "minecraft:block/mossy_cobblestone"
+		"all": "datapack_decor:block/pedestal/mossy_cobblestone"
 	}
 }
